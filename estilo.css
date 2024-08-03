@@ -9,35 +9,12 @@ header {
 }
 
 section {
-   background: whitesmoke;
-   border-radius: 10px;
-   padding: 15px;
-   width: 500px;
-   margin: auto;
+     background: whitesmoke;
+     border-radius: 10px;
+     padding: 15px;
+     width: 500px;
+     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
-
-} 
-
-
-div{
-   text-align: center;
-   padding: 8px;
-}
-
-img{
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
-  filter: grayscale(80%);
-  transition: 0.5 ease;
-  cursor: pointer;
-}
-
-img:hover{
-  transform: scale(1.1);
-  filter: grayscale(0%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.76);
 }
 
 footer {
@@ -45,3 +22,19 @@ footer {
    text-align: center;
    font-style: italic;
 }
+
+img{
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
+   filter: grayscale(30%);
+   transition: 0.5 ease;
+   cursor: pointer;
+ }
+ 
+ img:hover{
+   transform: scale(1.1);
+   filter: grayscale(0%);
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.76);
+ }
